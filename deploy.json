@@ -11,7 +11,7 @@
             "ConstraintDescription": "Malformed input parameter. AppName must only contain upper and lower case letters, numbers, and -."
         },
         "BucketName": {
-            "Description": "Name of the new S3 Bucket to Host Site",
+            "Description": "Name dof the new S3 Bucket to Host Site",
             "Type": "String",
             "AllowedPattern": "[a-z0-9-]+",
             "Default": "eeg3-serverless-template"
