@@ -189,7 +189,7 @@
             "Type": "AWS::IAM::Role",
             "Properties": {
                 "RoleName": {
-                    "Fn::Sub": "${AppName}-${AWS::Region}-apigw-role"
+                    "Fn::Sub": "${AppName}-${AWS::Region}-apigwledan-role"
                 },
                 "AssumeRolePolicyDocument": {
                     "Statement": [{
